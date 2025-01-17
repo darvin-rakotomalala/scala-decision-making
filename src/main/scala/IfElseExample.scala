@@ -11,4 +11,12 @@ class IfElseExample {
     }
   }
 
+  def expressionTest(): Unit = {
+    // Conditional expression (if-else)
+    // val result = if (condition) value1 else value2
+    var x = 5
+    val result = if x > 0 then "Positive" else "Negative"
+    println("- Conditional expression (if-else): " + result)
+  }
+
 }

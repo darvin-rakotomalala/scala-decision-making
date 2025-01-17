@@ -8,6 +8,7 @@ def main(): Unit =
 
   val ifElseEx = new IfElseExample()
   ifElseEx.ifElseStatement()
+  ifElseEx.expressionTest()
 
   val nestedIfElseEx = new NestedIfElseExample()
   nestedIfElseEx.nestedIfElse()
