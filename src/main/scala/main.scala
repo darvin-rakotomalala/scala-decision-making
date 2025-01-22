@@ -19,3 +19,19 @@ def main(): Unit =
   val matchingEx = new PatternMatching()
   matchingEx.matching1Example()
   matchingEx.matching2Example()
+
+  println("----------------------------------------------------------------------------------")
+  println("First example:")
+  val example = new IfElseDemo()
+  example.firstExample()
+
+  println("Expression result:")
+  example.expressionResult()
+
+  println("If versus match:")
+  example.ifVersusMatch()
+
+  println("If inside match:")
+  example.ifInsideMatch(1)
+  example.ifInsideMatch(-50)
+
